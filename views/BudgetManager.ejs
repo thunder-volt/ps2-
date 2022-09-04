@@ -55,7 +55,7 @@
             <div class="item">Delete</div>
           </div>
           <% for( let i = 0; i < data.length; i++ ) { %>
-          <div class="item-heading">
+          <div class="item-heading values">
             <div class="item"><%= data[i].itemname %></div>
             <div class="item"><%= data[i].category %></div>
             <div class="item"><%= data[i].date %></div>
@@ -76,7 +76,9 @@
       </div>
     </div>
   </body>
+  <!-- <script src="./budget.js"></script> -->
   <script>
+    // import {c1,c2,c3,c4,c5} from '../app.js'
     const ctx = document.getElementById("myChart").getContext("2d");
     const myChart = new Chart(ctx, {
       type: "pie",
