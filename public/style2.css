@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('background1.jpeg');
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #fff;
+    /* height: 100vh; */
+    flex-wrap: wrap;
+    margin-bottom: 90px;
+}
+
+.add-item {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 0px;
+    background-color: #f9ad76;
+    border: 0;
+    height: 44px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.header {
+    position: -webkit-sticky;
+    background-color: #2b2928;
+    position: sticky;
+    top: 0;
+    height: 68px;
+    margin: -20px 21px 0px 0px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 39px;
+    font-weight: 800;
+    margin: -20px 21px 0px 0px;
+    margin-right: 0px;
+}
+
+.item-heading {
+    border: 1px solid white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 564px;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.Update {
+    border-radius: 0%;
+    background-color: rgb(6, 45, 6);
+    color: white;
+    font-style: bold;
+    border: 0;
+
+}
+
+.Update:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    background-color: rgb(92, 250, 139);
+}
+
+.Delete {
+    border-radius: 0%;
+    background-color: rgb(186, 5, 5);
+    color: white;
+    font-style: bold;
+    border: 0;
+    cursor: pointer;
+}
+
+.Delete:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    background-color: rgb(246, 115, 115);
+}
+
+.item {
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 564px;
+    margin: 9px;
+    height: 76px;
+    font-family: 'PT Sans';
+    font-weight: 500;
+    font-size: 22px;
+    font-style: bold;
+    color: white;
+    /* background: rgba(0, 0, 0, 0.5); */
+}
+
+label {
+    font-family: 'PT Sans';
+    font-weight: 500;
+    font-size: 22px;
+    font-style: bold;
+    color: white;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    /* background: black; */
+}
+
+.form {
+    display: flex;
+    /* flex-direction: column; */
+    width: 755px;
+    justify-content: space-around;
+    align-items: center;
+    height: 170px;
+    margin-left: 3px;
+    border: 1px solid white;
+    /* border-right-style: solid;
+    border-right-width: 1px; */
+    padding-right: 18px;
+    margin-top: 39px;
+    margin-bottom: 31px;
+}
+
+/* .form-sum {
+    height: 160px;
+} */
+
+.budget-display {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: left;
+    height: 234px;
+    padding-top: -2vh;
+    /* margin-left: 10vw; */
+    margin-top: -426px;
+}
+
+.form-sub {
+    height: -126px;
+}
+
+.chartBox {
+    width: 500px;
+    margin-left: 118px;
+
+
+}
+
+.merge {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.team-name {
+    text-align: center;
+}
+
+.team-name h1 {
+    color: #fff;
+    font-size: 68px;
+    font-weight: 800;
+}
+
+@media screen and (max-width: 1343px) {
+    .budget-display {
+        margin-top: 10px;
+    }
+}
